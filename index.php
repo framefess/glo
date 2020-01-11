@@ -1,25 +1,21 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
-
-  <title>Hello, world!</title>
-</head>
+<?php
+include "src/header/header.php";
+?>
 
 <body>
   <h1>Hello, world!</h1>
-
+  <p></p>
+  <p></p>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="node_modules/jquery/dist/jquery.js" crossorigin="anonymous"></script>
-  <script src="node_modules/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <?php
+  include "src/module/module.php";
+  ?>
+
+
+  <script>
+    $("p:eq(1)").text("test")
+  </script>
 </body>
 
 </html>

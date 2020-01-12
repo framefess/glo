@@ -9,5 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="src/css/body.css">
+  <link rel="stylesheet" href="node_modules/ekko-lightbox/dist/ekko-lightbox.css">
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
   <title>GLO</title>
 </head>

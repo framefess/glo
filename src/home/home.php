@@ -12,7 +12,12 @@
                 <span class="badge badge-danger pull-right">โหวตเลย</span>
             </div>
             <div class="col text-right">
-                <h1 class="w-100 position-absolute my-auto text-right fixed-top "><button type="button" class="btn" style="width: 12%" onclick="location.href='admin.php'"><img src="assets/system.svg" /></button></h1>
+            <h1 class="w-100 position-absolute my-auto text-right fixed-top ">
+                    <div class="btn-group">
+                        <button type="button" class="btn" onclick="location.href='index.php'"><i class="fas fa-home text-primary" style="width: 44px;height: 44px;"></i></button>
+                        <button type="button" class="btn" style="width: 70px" onclick="location.href='admin.php'"><img src="assets/system.svg" /></button>
+                    </div>
+                </h1>
             </div>
         </div>
         <div class="row  bar1 shadow-sm mb-1 rounded align-items-center">

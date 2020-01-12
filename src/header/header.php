@@ -9,5 +9,5 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="src/css/body.css">
-  <title>Hello, world!</title>
+  <title>GLO</title>
 </head>

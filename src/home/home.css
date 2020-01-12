@@ -17,3 +17,11 @@
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 255, 252, 1) 0%, rgba(0, 255, 252, 0) 90%);
 }
+
+.test {}
+
+span.badge {
+    position: relative;
+    top: -18px;
+    left: -22px;
+}

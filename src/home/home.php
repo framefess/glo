@@ -8,11 +8,11 @@
             </div>
             <div class="col-4 text-left align-self-center">
                 
-                <button type="button" class="btn btn-dark" style="position: inline;">ทีมที่เข้าร่วม</button>
+                <button type="button" class="btn btn-dark" style="position: inline;" onclick="location.href='teamlist.php'">ทีมที่เข้าร่วม</button>
                 <span class="badge badge-danger pull-right">โหวตเลย</span>
             </div>
             <div class="col text-right">
-                <h1 class="w-100 position-absolute my-auto text-right fixed-top "><button type="button" class="btn" style="width: 12%"><img src="assets/system.svg" /></button></h1>
+                <h1 class="w-100 position-absolute my-auto text-right fixed-top "><button type="button" class="btn" style="width: 12%" onclick="location.href='admin.php'"><img src="assets/system.svg" /></button></h1>
             </div>
         </div>
         <div class="row  bar1 shadow-sm mb-1 rounded align-items-center">

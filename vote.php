@@ -1,8 +1,8 @@
 <?php include "src/header/header.php"; ?>
-
+<link href="admin/css/sb-admin-2.min.css" rel="stylesheet">
 <link rel="stylesheet" href="src/vote/vote.css">
 
-<body class="bg-light">
+<body class="bg-gradient-light">
     <div class="container my-2">
         <div class="row">
             <div class="col text-center">

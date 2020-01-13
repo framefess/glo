@@ -1,0 +1,15 @@
+.card-img-top {
+    width: 255px;
+    height: 180px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

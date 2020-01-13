@@ -14,10 +14,9 @@ include "src/header/header.php";
                 <h1 class="w-100 position-absolute my-auto text-right fixed-top ">
                     <div class="btn-group">
                         <button type="button" class="btn" onclick="location.href='index.php'"><i class="fas fa-home text-primary" style="width: 44px;height: 44px;"></i></button>
-                        <button type="button" class="btn" style="width: 70px"><img src="assets/system.svg" /></button>
+                        <button type="button" class="btn" style="width: 70px" onclick="location.href='login.php'"><img src="assets/system.svg" /></button>
                     </div>
                 </h1>
-
             </div>
         </div>
         <div class="row py-2">
@@ -81,26 +80,26 @@ include "src/header/header.php";
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+                            <a href="assets/img/1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="assets/img/1.jpg" class="img-fluid rounded">
                             </a>
-                            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+                            <a href="assets/img/2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="assets/img/2.jpg" class="img-fluid rounded">
                             </a>
-                            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+                            <a href="assets/img/3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="assets/img/3.jpg" class="img-fluid rounded">
                             </a>
                         </div>
                         <div class="row py-2">
-                            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+                            <a href="assets/img/4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="assets/img/4.jpg" class="img-fluid rounded">
                             </a>
-                            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+                            <a href="assets/img/5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="assets/img/5.jpg" class="img-fluid rounded">
                             </a>
-                            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                            <!-- <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                                 <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
-                            </a>
+                            </a> -->
                         </div>
                         <p class="card-text text-left"></p>
                     </div>

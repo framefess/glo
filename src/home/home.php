@@ -1,21 +1,21 @@
 <link rel="stylesheet" href="src/home/home.css">
 
 <body class="bg-light">
-    <div class="container mt-3">
+    <div class="container my-2">
         <div class="row">
             <div class="col-3 text-left">
                 <h1>ผลโหวตล่าสุด</h1>
             </div>
             <div class="col-4 text-left align-self-center">
-                
+
                 <button type="button" class="btn btn-dark" style="position: inline;" onclick="location.href='teamlist.php'">ทีมที่เข้าร่วม</button>
                 <span class="badge badge-danger pull-right">โหวตเลย</span>
             </div>
             <div class="col text-right">
-            <h1 class="w-100 position-absolute my-auto text-right fixed-top ">
+                <h1 class="w-100 position-absolute my-auto text-right fixed-top ">
                     <div class="btn-group">
                         <button type="button" class="btn" onclick="location.href='index.php'"><i class="fas fa-home text-primary" style="width: 44px;height: 44px;"></i></button>
-                        <button type="button" class="btn" style="width: 70px" onclick="location.href='admin.php'"><img src="assets/system.svg" /></button>
+                        <button type="button" class="btn" style="width: 70px" onclick="location.href='login.php'"><img src="assets/system.svg" /></button>
                     </div>
                 </h1>
             </div>

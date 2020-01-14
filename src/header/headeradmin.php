@@ -23,4 +23,6 @@
 
   <!-- datepicker -->
   <link href="datepicker\css\bootstrap-datepicker3.css" rel="stylesheet">
+  <link href="node_modules\jquery-timepicker\jquery.timepicker.css" rel="stylesheet">
+
 </head>

@@ -20,6 +20,7 @@ include "src/header/header.php";
             </div>
         </div>
         <div class="row py-2">
+            
             <div class="col py-2">
                 <button type="button" class="btn btn-danger btn-lg btn-block" onclick="location.href='vote.php'">โหวตทีมนี้</button>
             </div>
@@ -54,17 +55,17 @@ include "src/header/header.php";
                 </div>
             </div>
             <div class="w-100"></div>
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card text-center">
                     <div class="card-header">
                         <h2>PDF preview</h2>
                     </div>
                     <div class="card-body">
-                        <!-- <object data="src/pdf/resume.pdf" type="application/pdf" width="100%" height="800px">
+                        <object data="src/pdf/resume.pdf" type="application/pdf" width="100%" height="800px">
                             <p>It appears you don't have a PDF plugin for this browser.
                                 No biggie... you can <a href="resume.pdf">click here to
                                     download the PDF file.</a></p>
-                        </object> -->
+                        </object>
                         <object data="src/pdf/resume.pdf" type="application/pdf" width="100%" height="800px">
                             <iframe src="https://docs.google.com/viewer?url=src/pdf/resume.pdf&embedded=true"></iframe>
                         </object>
@@ -72,7 +73,7 @@ include "src/header/header.php";
                     </div>
                 </div>
             </div>
-            <div class="w-100"></div>
+            <div class="w-100"></div> -->
             <div class="col">
                 <div class="card text-center">
                     <div class="card-header">

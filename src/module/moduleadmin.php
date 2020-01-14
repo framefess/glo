@@ -13,7 +13,7 @@
   <!-- datepicker -->
   <script src="datepicker\js\bootstrap-datepicker.js"></script>
   <script src="datepicker\locales\bootstrap-datepicker.th.min.js"></script>
-
+  <script src="node_modules\jquery-timepicker\jquery.timepicker.js"></script>
   <!-- datatable -->
   <!-- Page level plugins -->
   <script src="admin/vendor/datatables/jquery.dataTables.min.js"></script>

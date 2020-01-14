@@ -23,9 +23,8 @@
                         <div class="text-center p-5">
                             <h1 class="h4 text-gray-900 mb-4">ทีมที่เลือก</h1>
                             <h1 class="h4 text-gray-900 mb-4">ชื่อทีม</h1>
-                            <img class="card-img-top" />
-                            <div class="centered text-dark">255*180</div>
-                            
+                            <img class="" src="assets/avatar/1.jpg" style="height: 250px;object-fit:scale-down;"/>
+                            <!-- <div class="centered text-dark">255*180</div> -->
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -46,7 +45,7 @@
                                 <div class="form-group row">
                                     <label for="lname" class="col-sm-3 col-form-label">นามสกุล</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="fname" placeholder="นามสกุล">
+                                        <input type="text" class="form-control" id="lname" placeholder="นามสกุล">
                                     </div>
                                 </div>
                                 <div class="form-group row">

@@ -31,27 +31,27 @@
                         </div>
                         <!-- Card Body -->
                         <div class="card-body">
-
                             <div class="row">
                                 <div class="col-2">ชื่อกิจกรรม</div>
                                 <div class="col">ชื่อ</div>
                             </div>
                             <div class="row align-items-center">
                                 <div class="col-2">ระยะเวลาโหวต</div>
-                                <div class="col-auto">
+                                <div class="col-10">
                                     <div class="input-group input-daterange">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="inputGroupPrepend2">เริ่ม</span>
                                         </div>
-                                        <input type="text" class="form-control" disabled>
+                                        <input type="text" class="form-control " id="dates">
+                                        <input type="text" class="form-control col-1 timepicker">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text" id="inputGroupPrepend2">ถึง</span>
                                         </div>
-                                        <input type="text" class="form-control" disabled>
+                                        <input type="text" class="form-control " id="datee">
+                                        <input type="text" class="form-control col-1 timepicker">
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="card-footer">
 
@@ -94,8 +94,8 @@
     <script src="admin/vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="admin/js/demo/chart-area-demo.js"></script>
-    <script src="admin/js/demo/chart-pie-demo.js"></script>
+    <!-- <script src="admin/js/demo/chart-area-demo.js"></script> -->
+    <!-- <script src="admin/js/demo/chart-pie-demo.js"></script> -->
     <script src="src\admin\admin.js"></script>
 </body>
 

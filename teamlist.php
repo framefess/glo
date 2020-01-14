@@ -6,10 +6,12 @@ include "src/header/header.php";
     .card-img-top {
         width: 255px;
         height: 180px;
-        position: relative;
-        text-align: center;
+        /* position: relative; */
+        /* text-align: center; */
         color: white;
         background-color: gray;
+        object-fit: cover;
+        object-position: 0 25%;
     }
 
     .centered {
@@ -36,10 +38,10 @@ include "src/header/header.php";
         <div class="row py-2">
             <div class="col-3">
                 <div class="card">
-                    <img class="card-img-top">
-                    <div class="centered">255*180</div>
+                    <img class="card-img-top" src="assets/avatar/1.jpg">
+                    <!-- <div class="centered">255*180</div> -->
                     <div class="card-body">
-                        <h5 class="card-title">ชื่อทีม</h5>
+                        <h5 class="card-title">ทีมที่ 1</h5>
                         <a href="teaminfo.php" class="btn btn-primary">ข้อมูลทีม</a>
                         <a href="vote.php" class="btn btn-danger">โหวต</a>
                     </div>
@@ -47,10 +49,10 @@ include "src/header/header.php";
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img class="card-img-top">
-                    <div class="centered">255*180</div>
+                    <img class="card-img-top" src="assets/avatar/2.jpg">
+                    <!-- <div class="centered">255*180</div> -->
                     <div class="card-body">
-                        <h5 class="card-title">ชื่อทีม</h5>
+                        <h5 class="card-title">ทีมที่ 2</h5>
                         <a href="teaminfo.php" class="btn btn-primary">ข้อมูลทีม</a>
                         <a href="vote.php" class="btn btn-danger">โหวต</a>
                     </div>
@@ -58,10 +60,10 @@ include "src/header/header.php";
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img class="card-img-top">
-                    <div class="centered">255*180</div>
+                    <img class="card-img-top" src="assets/avatar/3.jpg">
+                    <!-- <div class="centered">255*180</div> -->
                     <div class="card-body">
-                        <h5 class="card-title">ชื่อทีม</h5>
+                        <h5 class="card-title">ทีมที่ 3</h5>
                         <a href="teaminfo.php" class="btn btn-primary">ข้อมูลทีม</a>
                         <a href="vote.php" class="btn btn-danger">โหวต</a>
                     </div>
@@ -69,10 +71,10 @@ include "src/header/header.php";
             </div>
             <div class="col-3">
                 <div class="card">
-                    <img class="card-img-top">
-                    <div class="centered">255*180</div>
+                    <img class="card-img-top" src="assets/avatar/4.jpg">
+                    <!-- <div class="centered">255*180</div> -->
                     <div class="card-body">
-                        <h5 class="card-title">ชื่อทีม</h5>
+                        <h5 class="card-title">ทีมที่ 4</h5>
                         <a href="teaminfo.php" class="btn btn-primary">ข้อมูลทีม</a>
                         <a href="vote.php" class="btn btn-danger">โหวต</a>
                     </div>
@@ -80,12 +82,13 @@ include "src/header/header.php";
             </div>
         </div>
         <div class="row py-2">
+
             <div class="col-3">
                 <div class="card">
-                    <img class="card-img-top">
-                    <div class="centered">255*180</div>
+                    <img class="card-img-top" src="assets/avatar/5.jpg">
+                    <!-- <div class="centered">255*180</div> -->
                     <div class="card-body">
-                        <h5 class="card-title">ชื่อทีม</h5>
+                        <h5 class="card-title">ทีมที่ 5</h5>
                         <a href="teaminfo.php" class="btn btn-primary">ข้อมูลทีม</a>
                         <a href="vote.php" class="btn btn-danger">โหวต</a>
                     </div>
